@@ -1,41 +1,299 @@
-<!DOCTYPE html>
+<html lang="it-IT">
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
-<html><head>
-  
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-  <meta name="description" content="">
-  
-  <title>Captcha</title>
-  <link rel="stylesheet" href="assets/css/mobirise-icons.css">
-  <link rel="stylesheet" href="assets/css/mobirise2.css">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="preload" as="style" href="assets/css/mbr-additional.css">
-  <link rel="stylesheet" href="assets/css/mbr-additional.css" type="text/css">
-</head><body><section class="cid-rJjVjQ4nlD mbr-fullscreen" id="header2-0">
-
-    <div class="container align-center">
-        <div class="row justify-content-md-center">
-		
-			<p> <br></p>
-		
-            <div class="mbr-white col-md-10">
-              <p> <br> </p><p> <br> </p>
-                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-4"><strong>
-                  Conferma di non essere un robot</strong></h3>
-                <p> <br> </p>
-                <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-2" href="https://blog-inform.online/HXbKx3">
-                  <span class="mobi-mbri mobi-mbri-success mbr-iconfont mbr-iconfont-btn"></span>Non sono un robot</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-</section>
-
-</body></html>
+    	<title>Ristorante italiano</title>
+    	<link rel="icon" href="images/logo.png">
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	  	<div id="Welcome">
+	  		<!---Start navigation Bar -->
+	    	<nav class="navbar navbar-expand-lg navbar fixed-top  navbar-light bg-light">
+		 		<a class="navbar-brand" href="#Welcome">
+    				<img src="images/logo.png" width="50" height="50" class="d-inline-block" alt=""> Ristorante italiano
+		 		</a>
+		 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		    		<span class="navbar-toggler-icon"></span>
+		 		</button>
+			  	<div class="collapse navbar-collapse" id="navbarText">
+			    	<ul class="navbar-nav ml-auto">
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="#Welcome">Benvenuto</a>
+			      		</li>
+					    <li class="nav-item">
+					    	<a class="nav-link" href="#Restaurant">Ristorante</a>
+					    </li>
+					    <li class="nav-item">
+					    	<a class="nav-link" href="#Menu">Menù</a>
+					    </li>
+					    <li class="nav-item">
+					    	<a class="nav-link" href="#Reservation">Prenotazione</a>
+					    </li>
+					    <li class="nav-item">
+					    	<a class="nav-link" href="#OurLocation">Nostra posizione</a>
+					    </li>
+					    <li class="nav-item">
+					    	<a href="#" class="language" rel="it-IT"><img src="images/italy.ico" class="flag" alt="Italiano"></a>
+					    	<!-- <a href="index.html" class="language" rel="en-En"><img src="images/english.ico" class="flag" alt="English"></a> -->
+					    </li>
+				    </ul>
+				</div>
+			</nav>
+			<!--- End Navigation Bar -->
+			<!--- Start Carousel -->
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+				    	<img class="d-block w-100 img-fluid img-slider" src="images/slider1.jpg" alt="First slide">
+				    	<div class="carousel-caption">
+						    <h2>Benvenuto!</h2>
+							<p>...</p>
+						</div>
+				    </div>
+				    <div class="carousel-item">
+				      	<img class="d-block w-100 img-fluid img-slider" src="images/slider2.jpg" alt="Second slide">
+				      	<div class="carousel-caption">
+						    <h2>Cucina italiana tradizionale</h2>
+							<p>...</p>
+						</div>
+				    </div>
+				    <div class="carousel-item">
+				      	<img class="d-block w-100 img-fluid img-slider" src="images/slider3.jpg" alt="Third slide">
+				      	<div class="carousel-caption">
+						    <h2>Prodotti selezionati</h2>
+							<p>...</p>
+						</div>
+				    </div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Precedente</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Il prossimo</span>
+				</a>
+			</div>
+		</div>
+			<!--- End of Carousel -->
+			<!--- Restaurant-->
+		<div class="container">
+		 	<div class="row" id="Restaurant">
+	    		<div class="col navMenu">
+	     		 	<h2 class="text-center" >~ Ristorante ~</h2>
+	    		</div>
+  			</div>
+  			<div class="row bg-light" >
+  				<div class="col-md-6">
+  					<h3>Posizione</h3>
+  					<p>Grazie per esserti fermato. Siamo l'ultimo autentico ristorante italiano a Milano, che serve una deliziosa cucina italiana cucinata dai migliori chef. Bastano pochi minuti per navigare attraverso il nostro sito Web e controllare il nostro menu. Speriamo che presto ti unirai a noi per una straordinaria esperienza culinaria italiana.</p>
+  					<h5>Un'esperienza unica</h5>
+  					<p>Nel corso degli anni, abbiamo accumulato un'esperienza unica, sia in termini di preparazione dei nostri piatti, sia in termini di servizio. Vieni ad assaggiare i nostri migliori piatti!</p>
+  				</div>
+  				<div class="col-md-6" data-aos="fade-up">
+  					<img class="img-fluid" src="images/location.jpg">
+  				</div>
+  			</div>
+  			<div class="row bg-light"><br></div>
+  			<div class="row bg-light">
+  				<div class="col-md-6 order-md-1 order-2" data-aos="fade-up">
+  					<img class="img-fluid " src="images/cuisine.jpg">
+  				</div>
+  				<div class="col-md-6 order-md-12 order-1">
+  					<h3>Cucina</h3>
+  					<p>La nostra cucina è un'ottima idea per chi vuole scoprire nuove sfaccettature della gastronomia. I concetti di molti ristoranti decenti sono costruiti attorno alla personalità dello chef, la cui esperienza e conoscenza ci consentono di sperimentare e creare ricette e servizi nuovi e insoliti. Spesso, in un piatto, possono essere utilizzate contemporaneamente diverse tecniche di cottura, combinazioni fondamentalmente nuove di ingredienti o classici elaborati</p>
+  					<h5>Un'esperienza unica</h5>
+  					<p>Tutto è unico nel nostro ristorante, dalla sala da pranzo, che è decorata nella forma di un asilo italiano, allo spettacolo di cibo e teatro dei suoi camerieri.</p>
+  				</div>
+  			</div>
+  			<!--- End of Restaurant -->
+  			<!--- Start of Menu-->
+			<div class="row" id="Menu">
+				<div class="col navMenu">
+	     		 	<h2 class="text-center" >~ Menu ~</h2>
+				</div>
+			</div>
+			<div class="row bg-light">
+				<div class="col-md-4" data-aos="slide-up">
+					<div class="card view zoom">
+  						<img class="card-img-top img-fluid " src="images/meat-menu.jpg">
+					  	<div class="card-body">
+					  		<h5 class="card-title">~ Menu di carne ~</h5>
+					    	<ul class="list-group list-group-flush">
+							    <li class="list-group-item">Bocconcini di carne in nido di sfoglia</li>
+							    <li class="list-group-item">Bruschette con maiale al curry</li>
+							 	<li class="list-group-item">Uova al prosciutto</li>
+							 	<li class="list-group-item">Vitello tonnato</li>
+							 	<li class="list-group-item">Fesa di tacchino marinata con olive</li>
+							</ul>
+					  	</div>
+					</div>
+				</div>
+				<div class="col-md-4" data-aos="slide-up">
+					<div class="card">
+  						<img class="card-img-top img-fluid " src="images/fish-menu.jpg">
+					  	<div class="card-body">
+					  		<h5 class="card-title">~ Menu di pesce ~</h5>
+					    	<ul class="list-group list-group-flush">
+							    <li class="list-group-item">Carpaccio di polpo</li>
+							    <li class="list-group-item">Cozze al verde</li>
+							 	<li class="list-group-item">Cocktail di gamberi</li>
+							 	<li class="list-group-item">Risotto alla crema di scampi</li>
+							 	<li class="list-group-item">Ravioli di pesce con crema di scampi</li>
+							</ul>
+					  	</div>
+					</div>
+				</div>
+				<div class="col-md-4" data-aos="slide-up">
+					<div class="card">
+  						<img class="card-img-top img-fluid" src="images/menu-vegetarian.jpg">
+					  	<div class="card-body">
+					  		<h5 class="card-title">~ Vegetarian Menu ~</h5>
+					    	<ul class="list-group list-group-flush">
+							    <li class="list-group-item">Parmigiana di melanzane</li>
+							    <li class="list-group-item">Strudel con ricotta e spinaci</li>
+							 	<li class="list-group-item">Polpette di spinaci e ricotta</li>
+							 	<li class="list-group-item">Frittata di patate al forno</li>
+							 	<li class="list-group-item">Spaghetti con le polpettine vegetariane</li>
+							</ul>
+					  	</div>
+					</div>
+				</div>
+			</div>
+			<!--- End of Menu -->
+			<!--- Start of Reservation-->
+			<div class="row" id="Reservation">
+				<div class="col navMenu">
+	     		 	<h2 class="text-center">~ Prenotazione ~</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class=" col-lg-12 reserve-container" data-aos="fade-up">
+					<img class="img-fluid image-reserve" src="images/reserve.jpg">
+					<div class="reserve-text col-lg-12 ">
+						<h1 class="text-center">Оrari</h1>
+						<div class="row">
+							<div class="col-6">
+							   	<h2 class="text-center">Pranzo</h2>
+							    <h5 class="text-center">12:00 - 15:00</h5>
+							</div>
+							<div class="col-6">
+							    <h2 class="text-center">Cena</h2>
+							    <h5 class="text-center">19:30 - 23:30</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="row bg-light">
+				<div class="col">
+					<form onsubmit="formSubmit();">
+						<div class="form-row">
+						  	<div class="form-group col-6">
+						  		<h3>Riserva</h3>
+						  		<label for="inputDate"> Data</label>
+						  		<input type="date" class="form-control" id="inputDate" placeholder="Data gg/mm/aaaa">
+						  	</div>
+						  	<div class="form-group col-6">
+						  		<h3>Dettagli</h3>
+						  		<label for="inputName"> Nome</label>
+						  		<input type="text" class="form-control" id="inputName" placeholder="Nome" required>
+						  	</div>
+						  	<div class="form-group col-6">
+						  		<label for="inputTime"> Orari</label>
+						  		<input type="time" class="form-control" id="inputTime" placeholder="Orari">
+						  	</div>
+						  	<div class="form-group col-6">
+						  		<label for="inputEmail"> Email</label>
+						  		<input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+						  	</div>
+						  	<div class="form-group col-6">
+						  		<label for="inputNumber"> Numero di invitati</label>
+						  		<input type="number" class="form-control" id="inputNumber" placeholder="Numero di invitati">
+						  	</div>
+						  	<div class="form-group col-6">
+						  		<label for="inputCel"> Telefono</label>
+						  		<input type="tel" class="form-control" id="inputCel" placeholder="Telefono" required>
+						  	</div>
+  							<div class="form-group col-12">
+  								<label for="inputComment"> Ulteriori richieste</label>
+								<textarea class="form-control" rows="4" id="inputComment" placeholder="Ulteriori richieste"></textarea>
+							</div>
+					 	</div>
+						<div class="row">
+					  		<div class="col-md-4 col-md-offset-4">
+					  			<button type="submit" class="btn btn-secondary btn-block">Riserva</button>
+					  		</div>
+					  	</div>
+					</form>
+				</div>
+			</div>
+			<!--- End of Reserve -->
+			<!--- Start of Our Location -->
+			<div class="row" id="OurLocation">
+				<div class="col navMenu">
+					<h2 class="text-center">~ Nostra posizione ~</h2>
+				</div>
+			</div>
+			<div class="row">
+				<!-- <div id="map" class="col-md-9 map"></div> -->
+				<div class="col-md-3">
+					<h3>Indirizzo:</h3>
+					<p>Viale Enrico Fermi, 20159 Milan, Mailand (Lombardia) </p>
+					<!-- <h3>Email:</h3>
+					<p>mail@example.com</p> -->
+				</div>
+			</div>
+			<!--- End of Our Location -->
+			<div class="row footer bg-light">
+				<!-- <div class="col">
+					<p class="text-center">Follow us: <a class="social-icon" href="https://www.facebook.com/rubiktechnologiesShpk/"><i class="fab fa-facebook"></i></a> <a class="social-icon" href="https://www.instagram.com/rubiktechnologies/"><i class="fab fa-instagram"></i></a></p>
+				</div>
+				<div class="col">
+					<p class="text-center">Copyright &copy; 2018</p>
+				</div>
+				<div class="col">
+					<p class="text-center">Powered by: <a href="https://rubik-technologies.com/">Rubik Technologies</a></p>
+				</div> -->
+				<div class="col">
+					<a href="privacy_policy.html">Politica sulla riservatezza</a>
+				</div>
+			</div>
+		</div>
+		<footer class="container">
+			<!-- <div class= "row only-mobile">
+				<div class="col-6">
+					<a class="btn btn-primary btn-block text-center" href="tel:++390000000"><i class="fa fa-phone" aria-hidden="true"></i> Call</a>
+				</div>
+				<div class="col-6">
+					<a class="btn btn-success btn-block text-center" href="https://api.whatsapp.com/send?phone=+390000000"><i class="fab fa-whatsapp" aria-hidden="true"></i> Whatsapp</a>
+				</div>
+			</div> -->
+		</footer>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<!-- <script type="text/javascript" src="js/map.js"></script> -->
+		<script type="text/javascript" src="js/smooth-scroll.js"></script>
+		<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+		<script type="text/javascript" src="js/image-effect.js"></script>
+		<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFZjOV0KA68G2YAh-rn7I3qKqCQEh_Ja0&callback=myMap"></script> -->
+		<script>
+			function formSubmit() {
+				alert('La tua richiesta è stata inviata, grazie!');
+			}
+		</script>
+  	</body>
+</html>
